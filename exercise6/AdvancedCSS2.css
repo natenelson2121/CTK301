@@ -1,0 +1,19 @@
+body {background-color: grey;}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 1px solid #ff0000;
+    background-color: #ffffff;
+  }
+
+  .floatimg {
+    float: left;
+    width: 150px;
+    padding-right: 24px;
+  }
+
+  footer {
+    clear: both;
+  }

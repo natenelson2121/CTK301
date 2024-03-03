@@ -1,0 +1,35 @@
+body { background-color: #999999; }
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 1px solid #ff0000;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.box {
+    border: 1px solid blue;
+  }
+
+header {
+    grid-column: span 12;
+    border: 2px solid green;
+}
+
+nav {
+    grid-column: span 3;
+    border: 2px solid blue;
+}
+
+main {
+    grid-column: span 9;
+    border: 2px solid orange;
+}
+
+footer {
+    border: 2px solid yellow;
+    grid-column: span 12;
+}
