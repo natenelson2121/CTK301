@@ -116,16 +116,26 @@ body {
   }
   
   main {
-    /* grid-column: span 9; */
+    grid-column: span 12;
     grid-row: 3;
-    display: grid;
+    display:block;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 24px;
-    
+    padding-left: 75px;
+    padding-top: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
   }
 
+  #Skills {
+    font-size: 20px;
+    padding-bottom: 70px;
+  }
 
-
+  #Software {
+    font-size: 20px;
+    padding-bottom: 20px
+  }
 
   section img {
     width: 100%;
@@ -146,6 +156,7 @@ body {
     box-shadow: 10px 10px 10px #999; /* x, y, blur, color */
   }
   
+
 
   #linkedin {
     font-size: 40px;
@@ -171,7 +182,7 @@ body {
     color: black;
   }
 
-  
+
   /* style for dummy columns, delete and replace with your own CSS */
   .dummycolumn {
     background-color: rgba(255,0,0,.25);
