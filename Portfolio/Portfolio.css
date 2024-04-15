@@ -23,9 +23,20 @@ body {
     /* margin-left: 10px; */
     padding-left: 24px;
     padding-right: 24px;  
-    
+    text-decoration: none;
+    color: white;
   }
 
+  #logo a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #logo a:hover {
+    text-decoration: none;
+    color: white;
+  }
+  
   #head {
     grid-column: span 12;
     grid-row: 2;
