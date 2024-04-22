@@ -1,5 +1,5 @@
 body {
-    background-color: #5C690E;
+    background-color: #a61907;
   }
   
   #wrapper {
@@ -14,17 +14,19 @@ body {
   }
   
   #logo {
-    grid-column: span 1;
-    grid-row: 1;
-    background-color: #B8CF29;
+    grid-column: span 2;
+    /* grid-row: 1; */
+    background-color: #fc2003;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     /* margin-left: 10px; */
     padding-left: 24px;
     padding-right: 24px;  
+    margin-bottom: 24px;
     text-decoration: none;
     color: white;
+    font-size: 30px;
   }
 
   #logo a {
@@ -38,15 +40,15 @@ body {
   }
 
   #head {
-    grid-column: span 12;
-    grid-row: 2;
-    background-color: #B8CF29;
+    grid-column: span 10;
+    /* grid-row: 2; */
+    background-color: #fc2003;
     color: white;
     border-radius: 10px;
     font-size: 30px;
     text-align: center;
     padding: 0px;
-    margin-left: 225px;
+    /* margin-left: 225px; */
     margin-bottom: 24px;
     /* margin-right: 10px; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -63,11 +65,11 @@ body {
   
   nav {
     grid-column: span 2 ;
-    grid-row: 3;
+    /* grid-row: 3; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
     font-size: 20px;
-    padding-top: 64px;
+    padding-top: 64px;  
     padding-bottom: 64px;
   }
   
@@ -79,7 +81,7 @@ body {
   }
   
   nav li {
-    background-color: #B8CF29;
+    background-color: #fc2003;
     color: white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-top: 24px;
@@ -87,7 +89,7 @@ body {
   }
   
   nav li:hover {
-    background-color: #9EAF33;
+    background-color: #a61907;
   }
   
   nav li a {
@@ -127,15 +129,12 @@ body {
   }
   
   main {
-    grid-column: span 12;
-    grid-row: 3;
-    display:block;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: span 9;
+    /* grid-row: 3; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-column-gap: 24px;
-    padding-left: 85px;
-    padding-top: 50px;
-    font-family: 'Nunito', sans-serif;
-    font-size: 30px;
+    padding-left: 100px;
   }
 
   #Skills {
@@ -156,7 +155,7 @@ body {
     grid-column: span 12;
     grid-row: 12;
     display: flex;
-    background-color: #B8CF29;
+    background-color: #fc2003;
     color: white;
     padding-left: 24px;
     padding-top: 10px;
@@ -191,7 +190,7 @@ body {
   #twitter {
     font-size: 40px;
     padding-right: 10px;
-    color: black;
+    color: white;
   }
 
 
