@@ -15,12 +15,10 @@ body {
   
   #logo {
     grid-column: span 2;
-    /* grid-row: 1; */
     background-color: #fc2003;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    /* margin-left: 10px; */
     padding-left: 24px;
     padding-right: 24px;  
     margin-bottom: 24px;
@@ -42,16 +40,13 @@ body {
 
   #head {
     grid-column: span 10;
-    /* grid-row: 2; */
     background-color: #fc2003;
     color: white;
     border-radius: 10px;
     font-size: 30px;
     text-align: center;
     padding: 0px;
-    /* margin-left: 225px; */
     margin-bottom: 24px;
-    /* margin-right: 10px; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
   }
@@ -66,7 +61,6 @@ body {
   
   nav {
     grid-column: span 2 ;
-    /* grid-row: 3; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
     font-size: 20px;
@@ -98,7 +92,6 @@ body {
     display: block;
     text-decoration: none;
     padding: 24px;
-    /* margin-bottom: 24px; */
   }
 
   #mainimg {
@@ -114,7 +107,6 @@ body {
     grid-column: span 5;
     grid-row: 3;
     width: 100%;
-    /* padding-right: 24px; */
   }
 
   #thrdimg {
@@ -132,23 +124,26 @@ body {
   }
   
   main {
-    grid-column: span 9;
-    /* grid-row: 3; */
+    grid-column: span 10;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 24px;
-    
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
   }
 
   #myCarousel {
+    /* padding-left:  24px; */
+    padding-bottom: 0;
     margin-bottom: 24px;
-      /* --f-carousel-slide-height: 60%; */
-  /* --f-carousel-spacing: 10px; */
-  /* margin: 0; */
-  /* padding: 24px ; */
-  width: 40%;
-  /* height: 200; */
-  
+    margin-right: 100px;
+    width: 120%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+
+
   --f-button-width: 38px;
   --f-button-height: 38px;
 
@@ -168,10 +163,9 @@ body {
   
   #myCarousel .f-carousel__slide {
     text-align: center;
-    /* padding: 24px; */
     background: #eee;
-    /* width: 50%; */
-    margin: 100px;
+    /* margin: 100px; */
+    margin-bottom: 120px;
     padding: 0 ;
     
   }
@@ -181,19 +175,27 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* padding-right: 24px; */
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
+
+  #myCarousel .f-carousel__track {
+    padding: 0;
+    margin: 0;
+    height: 50%;
+}
+
 
   
   #secondCarousel {
     margin-bottom: 24px;
-    grid-row: 3;
-      /* --f-carousel-slide-height: 60%; */
-  /* --f-carousel-spacing: 10px; */
-  /* margin: 0; */
-  /* padding: 24px ; */
-  width: 40%;
-  /* height: 200; */
+    margin-left: 100px;
+    padding-bottom: 0;
+    /* padding-left: 100px; */
+    /* grid-row: 3; */
+    width: 160%;
+    height: 60%;
   --f-button-width: 38px;
   --f-button-height: 38px;
 
@@ -213,24 +215,21 @@ body {
   
   #secondCarousel .f-carousel__slide {
     text-align: center;
-    /* padding: 24px; */
     background: #eee;
-    /* width: 50%; */
-    margin: 100px;
+    /* margin: 100px; */
+    margin-bottom: 120px;
     padding: 0 ;
   }
 
+  
 
   #thirdCarousel {
     margin-bottom: 24px;
-    grid-row: 4;
-      /* --f-carousel-slide-height: 60%; */
-  /* --f-carousel-spacing: 10px; */
-  /* margin: 0; */
-  /* padding: 24px ; */
-  width: 40%;
-  /* height: 200; */
-  
+    padding-top: 0;
+    grid-row: 5;
+    width: 140%;
+    height: 60%;
+
   --f-button-width: 38px;
   --f-button-height: 38px;
 
@@ -250,27 +249,20 @@ body {
   
   #thirdCarousel .f-carousel__slide {
     text-align: center;
-    /* padding: 24px; */
     background: #eee;
-    /* width: 50%; */
-    margin: 100px;
+    /* margin: 100px; */
+    margin-bottom: 120px;
     padding: 0 ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
   }
 
   #fourthCarousel {
     margin-bottom: 24px;
+    margin-left: 150px;
+    padding-top: 0;
     grid-row: 5;
-      /* --f-carousel-slide-height: 60%; */
-  /* --f-carousel-spacing: 10px; */
-  /* margin: 0; */
-  /* padding: 24px ; */
-  width: 40%;
-  /* height: 200; */
-  
+    width: 150%;
+    height: 60%;
+
   --f-button-width: 38px;
   --f-button-height: 38px;
 
@@ -290,17 +282,78 @@ body {
   
   #fourthCarousel .f-carousel__slide {
     text-align: center;
-    /* padding: 24px; */
     background: #eee;
-    /* width: 50%; */
-    margin: 100px;
+    /* margin: 100px; */
+    margin-bottom: 120px;
     padding: 0 ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
   }
 
+  #fifthCarousel {
+    margin-bottom: 24px;
+    /* margin-left: 150px; */
+    padding-top: 0;
+    grid-row: 6;
+    width: 150%;
+    height: 60%;
+
+  --f-button-width: 38px;
+  --f-button-height: 38px;
+
+  --f-button-svg-width: 16px;
+  --f-button-svg-height: 16px;
+  --f-button-svg-stroke-width: 2.5;
+
+  --f-button-color: rgb(255, 0, 0);
+  --f-button-border-radius: 50%;
+  --f-button-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgb(0 0
+          0 / 30%);
+
+  --f-button-bg: #fff;
+  --f-button-hover-bg: #f9f9f9;
+  --f-button-active-bg: #f0f0f0;
+  }
+  
+  #fifthCarousel .f-carousel__slide {
+    text-align: center;
+    background: #eee;
+    /* margin: 100px; */
+    margin-bottom: 120px;
+    padding: 0 ;
+  }
+
+
+  #sixthCarousel {
+    margin-bottom: 24px;
+    margin-left: 150px;
+    padding-top: 0;
+    grid-row: 6;
+    width: 150%;
+    height: 60%;
+
+  --f-button-width: 38px;
+  --f-button-height: 38px;
+
+  --f-button-svg-width: 16px;
+  --f-button-svg-height: 16px;
+  --f-button-svg-stroke-width: 2.5;
+
+  --f-button-color: rgb(255, 0, 0);
+  --f-button-border-radius: 50%;
+  --f-button-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgb(0 0
+          0 / 30%);
+
+  --f-button-bg: #fff;
+  --f-button-hover-bg: #f9f9f9;
+  --f-button-active-bg: #f0f0f0;
+  }
+  
+  #sixthCarousel .f-carousel__slide {
+    text-align: center;
+    background: #eee;
+    /* margin: 100px; */
+    margin-bottom: 120px;
+    padding: 0 ;
+  }
   section img {
     width: 100%;
   }
