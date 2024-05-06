@@ -1,0 +1,202 @@
+body {
+    background-color: rgb(71, 14, 6);
+  }
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    border: 1px solid black;
+    padding: 24px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+  }
+  
+  #logo {
+    grid-column: span 2;
+    /* grid-row: 1; */
+    background-color: #fc2003;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* margin-left: 10px; */
+    padding-left: 24px;
+    padding-right: 24px;  
+    margin-bottom: 24px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+  }
+
+  #head {
+    grid-column: span 10;
+    /* grid-row: 2; */
+    background-color: #fc2003;
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px;
+    /* margin-left: 225px; */
+    margin-bottom: 24px;
+    /* margin-right: 10px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
+  }
+  
+  section h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #B8CF29;
+    border-bottom: #B8CF29 solid 5px;
+  }
+  
+  nav {
+    grid-column: span 2 ;
+    /* grid-row: 3; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 64px;  
+    padding-bottom: 64px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-shadow: 10px 10px 10px #999; /* x, y, blur, color */
+  }
+  
+  nav li {
+    background-color: #fc2003;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  
+  nav li:hover {
+    background-color: rgb(71, 14, 6);
+  }
+  
+  nav li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 24px;
+    /* margin-bottom: 24px; */
+  }
+
+  #mainimg {
+    /* grid-column: span 5;
+    grid-row: 3; */
+    width: 9%;
+    /* padding-left: 4px; */
+  }
+
+  #scndimg {
+    grid-column: span 5;
+    grid-row: 3;
+    width: 8%;
+    /* padding-left: 10px; */
+    padding-bottom: 10px;
+  }
+
+  #thrdimg {
+    grid-column: span 5;
+    grid-row: 3;
+    width: 8%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+  #fourimg {
+    grid-column: span 5;
+    grid-row: 4;
+    width: 97%;
+    padding-left: 200px;
+  }
+  
+  main {
+    grid-column: span 10;
+    /* grid-row: 3; */
+    display:block;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+    padding-left: 25px;
+    padding-top: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+  }
+
+  #Skills h2 {
+    font-weight: normal;
+  }
+
+
+  #Skills {
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+
+  #Software {
+    font-size: 20px;
+    margin-bottom: 100px;
+    text-justify: distribute;
+  }
+
+  section img {
+    width: 100%;
+  }
+  
+  footer {
+    grid-column: span 12;
+    grid-row: 12;
+    display: flex;
+    background-color: #fc2003;
+    color: white;
+    padding-left: 24px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #999; /* x, y, blur, color */
+  }
+  
+
+
+  #linkedin {
+    font-size: 40px;
+    color: black;
+  }
+
+  #email {
+    font-size: 40px;
+    padding-right: 10px;
+    color: black;
+  }
+
+
+  #instagram {
+    font-size: 40px;
+    padding-right: 10px;
+    color: black;
+  }
+
+  #twitter {
+    font-size: 40px;
+    padding-right: 10px;
+    color: black;
+  }
+
+
+  /* style for dummy columns, delete and replace with your own CSS */
+  .dummycolumn {
+    background-color: rgba(255,0,0,.25);
+    grid-column: span 1;
+  }
+  

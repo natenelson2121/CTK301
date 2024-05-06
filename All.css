@@ -1,0 +1,408 @@
+body {
+    background-color: rgb(71, 14, 6);
+  }
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    border: 1px solid black;
+    padding: 24px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+  }
+  
+  #logo {
+    grid-column: span 2;
+    background-color: #fc2003;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;  
+    margin-bottom: 24px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+  }
+
+  #logo a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #logo a:hover {
+    text-decoration: none;
+    color: white;
+  }
+
+
+  #head {
+    grid-column: span 10;
+    background-color: #fc2003;
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
+  }
+  
+  section h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #B8CF29;
+    border-bottom: #B8CF29 solid 5px;
+  }
+  
+  nav {
+    grid-column: span 2 ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 64px;  
+    padding-bottom: 64px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-shadow: 10px 10px 10px #999; /* x, y, blur, color */
+  }
+  
+  nav li {
+    background-color: #fc2003;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  
+  nav li:hover {
+    background-color: rgb(71, 14, 6);
+  }
+  
+  nav li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 24px;
+  }
+
+  #mainimg {
+    grid-column: span 5;
+    grid-row: 3;
+    width: 95%;
+    height: 60%;
+    padding-left: 5px;
+    margin-left: 10px;
+  }
+
+  #scndimg {
+    grid-column: span 5;
+    grid-row: 3;
+    width: 100%;
+  }
+
+  #thrdimg {
+    grid-column: span 5;
+    grid-row: 4;
+    width: 97%;
+    padding-left: 221px;
+  }
+
+  #fourimg {
+    grid-column: span 5;
+    grid-row: 4;
+    width: 97%;
+    padding-left: 200px;
+  }
+  
+  main {
+    grid-column: span 10;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+  }
+
+  #myCarousel {
+    /* padding-left:  24px; */
+    padding-bottom: 0;
+    margin-bottom: 24px;
+    margin-right: 100px;
+    width: 120%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+
+
+  --f-button-width: 38px;
+  --f-button-height: 38px;
+
+  --f-button-svg-width: 16px;
+  --f-button-svg-height: 16px;
+  --f-button-svg-stroke-width: 2.5;
+
+  --f-button-color: rgb(255, 0, 0);
+  --f-button-border-radius: 50%;
+  --f-button-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgb(0 0
+          0 / 30%);
+
+  --f-button-bg: #fff;
+  --f-button-hover-bg: #f9f9f9;
+  --f-button-active-bg: #f0f0f0;
+  }
+  
+  #myCarousel .f-carousel__slide {
+    text-align: center;
+    background: #eee;
+    /* margin: 100px; */
+    margin-bottom: 120px;
+    padding: 0 ;
+    
+  }
+
+  .f-carousel__slide img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+  #myCarousel .f-carousel__track {
+    padding: 0;
+    margin: 0;
+    height: 50%;
+}
+
+
+  
+  #secondCarousel {
+    margin-bottom: 24px;
+    margin-left: 100px;
+    padding-bottom: 0;
+    /* padding-left: 100px; */
+    /* grid-row: 3; */
+    width: 160%;
+    height: 60%;
+  --f-button-width: 38px;
+  --f-button-height: 38px;
+
+  --f-button-svg-width: 16px;
+  --f-button-svg-height: 16px;
+  --f-button-svg-stroke-width: 2.5;
+
+  --f-button-color: rgb(255, 0, 0);
+  --f-button-border-radius: 50%;
+  --f-button-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgb(0 0
+          0 / 30%);
+
+  --f-button-bg: #fff;
+  --f-button-hover-bg: #f9f9f9;
+  --f-button-active-bg: #f0f0f0;
+  }
+  
+  #secondCarousel .f-carousel__slide {
+    text-align: center;
+    background: #eee;
+    /* margin: 100px; */
+    margin-bottom: 120px;
+    padding: 0 ;
+  }
+
+  
+
+  #thirdCarousel {
+    margin-bottom: 24px;
+    padding-top: 0;
+    grid-row: 5;
+    width: 140%;
+    height: 60%;
+
+  --f-button-width: 38px;
+  --f-button-height: 38px;
+
+  --f-button-svg-width: 16px;
+  --f-button-svg-height: 16px;
+  --f-button-svg-stroke-width: 2.5;
+
+  --f-button-color: rgb(255, 0, 0);
+  --f-button-border-radius: 50%;
+  --f-button-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgb(0 0
+          0 / 30%);
+
+  --f-button-bg: #fff;
+  --f-button-hover-bg: #f9f9f9;
+  --f-button-active-bg: #f0f0f0;
+  }
+  
+  #thirdCarousel .f-carousel__slide {
+    text-align: center;
+    background: #eee;
+    /* margin: 100px; */
+    margin-bottom: 120px;
+    padding: 0 ;
+  }
+
+  #fourthCarousel {
+    margin-bottom: 24px;
+    margin-left: 150px;
+    padding-top: 0;
+    grid-row: 5;
+    width: 150%;
+    height: 60%;
+
+  --f-button-width: 38px;
+  --f-button-height: 38px;
+
+  --f-button-svg-width: 16px;
+  --f-button-svg-height: 16px;
+  --f-button-svg-stroke-width: 2.5;
+
+  --f-button-color: rgb(255, 0, 0);
+  --f-button-border-radius: 50%;
+  --f-button-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgb(0 0
+          0 / 30%);
+
+  --f-button-bg: #fff;
+  --f-button-hover-bg: #f9f9f9;
+  --f-button-active-bg: #f0f0f0;
+  }
+  
+  #fourthCarousel .f-carousel__slide {
+    text-align: center;
+    background: #eee;
+    /* margin: 100px; */
+    margin-bottom: 120px;
+    padding: 0 ;
+  }
+
+  #fifthCarousel {
+    margin-bottom: 24px;
+    /* margin-left: 150px; */
+    padding-top: 0;
+    grid-row: 6;
+    width: 150%;
+    height: 60%;
+
+  --f-button-width: 38px;
+  --f-button-height: 38px;
+
+  --f-button-svg-width: 16px;
+  --f-button-svg-height: 16px;
+  --f-button-svg-stroke-width: 2.5;
+
+  --f-button-color: rgb(255, 0, 0);
+  --f-button-border-radius: 50%;
+  --f-button-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgb(0 0
+          0 / 30%);
+
+  --f-button-bg: #fff;
+  --f-button-hover-bg: #f9f9f9;
+  --f-button-active-bg: #f0f0f0;
+  }
+  
+  #fifthCarousel .f-carousel__slide {
+    text-align: center;
+    background: #eee;
+    /* margin: 100px; */
+    margin-bottom: 120px;
+    padding: 0 ;
+  }
+
+
+  #sixthCarousel {
+    margin-bottom: 24px;
+    margin-left: 150px;
+    padding-top: 0;
+    grid-row: 6;
+    width: 150%;
+    height: 60%;
+
+  --f-button-width: 38px;
+  --f-button-height: 38px;
+
+  --f-button-svg-width: 16px;
+  --f-button-svg-height: 16px;
+  --f-button-svg-stroke-width: 2.5;
+
+  --f-button-color: rgb(255, 0, 0);
+  --f-button-border-radius: 50%;
+  --f-button-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgb(0 0
+          0 / 30%);
+
+  --f-button-bg: #fff;
+  --f-button-hover-bg: #f9f9f9;
+  --f-button-active-bg: #f0f0f0;
+  }
+  
+  #sixthCarousel .f-carousel__slide {
+    text-align: center;
+    background: #eee;
+    /* margin: 100px; */
+    margin-bottom: 120px;
+    padding: 0 ;
+  }
+  section img {
+    width: 100%;
+  }
+  
+  footer {
+    grid-column: span 12;
+    grid-row: 12;
+    display: flex;
+    background-color: #fc2003;
+    color: white;
+    padding-left: 24px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #999; /* x, y, blur, color */
+  }
+  
+  
+
+  #linkedin {
+    font-size: 40px;
+    color: black;
+  }
+
+  #email {
+    font-size: 40px;
+    padding-right: 10px;
+    color: black;
+  }
+
+
+  #instagram {
+    font-size: 40px;
+    padding-right: 10px;
+    color: black;
+  }
+
+  #twitter {
+    font-size: 40px;
+    padding-right: 10px;
+    color: black;
+  }
+
+  
+  /* style for dummy columns, delete and replace with your own CSS */
+  .dummycolumn {
+    background-color: rgba(255,0,0,.25);
+    grid-column: span 1;
+  }
+  
